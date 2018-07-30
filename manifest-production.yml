@@ -4,5 +4,5 @@ applications:
   path: src/PalTracker/bin/Release/netcoreapp2.0/publish/
   routes:
     - route: ch-pal-tracker.apps.pikes.pal.pivotal.io
-   env:
+  env:
     WELCOME_MESSAGE: Hello from the production environment
